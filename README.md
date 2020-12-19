@@ -13,5 +13,6 @@ $value = Cache::get($fileName, $time, function () {
   $result = 0;
   // do
   return $result;
-});    
+});
+?>
 ```
